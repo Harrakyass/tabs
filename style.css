@@ -1,0 +1,59 @@
+article {
+    display: none;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #439e3E;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #307978;
+}
+
+article ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article ul li {
+    margin-bottom: 5px;
+    color: #307978;
+}
+
+article ul li span {
+    font-weight: bold;
+    color: #439e3E;
+}
+
+/* Specific article styling */
+.mao-mao {
+    display: block;
+    background-image: url('./mao-mao.png');
+    background-size: cover;
+}
+.freiren{
+    display: block;
+    background-image: url('./freiren.jpeg');
+    background-size: cover;
+}
+.kana{
+    display: block;
+    background-image: url('./kana.png');
+    background-size: cover;
+}
+.megumin{
+    display: block;
+    background-image: url('./megumin.png');
+    background-size: cover;
+}
