@@ -11,14 +11,14 @@ article {
 article h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #439e3E;
+    
 }
 
 article p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
-    color: #307978;
+    
 }
 
 article ul {
@@ -28,12 +28,11 @@ article ul {
 
 article ul li {
     margin-bottom: 5px;
-    color: #307978;
+    
 }
 
 article ul li span {
     font-weight: bold;
-    color: #439e3E;
 }
 
 /* Specific article styling */
@@ -42,18 +41,42 @@ article ul li span {
     background-image: url('./mao-mao.png');
     background-size: cover;
 }
+.mao-mao h2, .mao-mao span {
+    color: #439e3E;
+}
+.mao-mao p, .mao-mao ul li {
+    color: #307978;
+}
 .freiren{
     display: block;
     background-image: url('./freiren.jpeg');
     background-size: cover;
+}
+.freiren h2, .freiren span {
+    color: #208C20;
+}
+.freiren p, .freiren ul li {
+    color: #AD6E18;
 }
 .kana{
     display: block;
     background-image: url('./kana.png');
     background-size: cover;
 }
+.kana h2, .kana span {
+    color: #DB2c58;
+}
+.kana p, .kana ul li {
+    color: #ffffff;
+}
 .megumin{
     display: block;
     background-image: url('./megumin.png');
     background-size: cover;
+}
+.megumin h2, .megumin span {
+    color: crimson
+}
+.megumin p, .megumin ul li {
+    color: #ffffff;
 }
